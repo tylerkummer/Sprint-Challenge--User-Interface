@@ -99,9 +99,17 @@ p {
     padding: 2%;
 }
 
+.container .middle-top h2{
+    margin-top: 2%;
+}
+
 .container .middle-bottom{
     display:flex;
     padding: 2%;
+}
+
+.container .middle-bottom h2{
+    margin-top: 2%;
 }
 
 .container .bottom{
@@ -134,10 +142,11 @@ button{
     background-color: white;
     text-decoration: none;
     margin-top: 2%;
+    margin-bottom: 2%;
     font-size: 15px;
     border-radius: 10px;
 }
 
 hr{
-    border-top: 1px dotted black;
+    border-top: 1px dashed black;
 }
