@@ -39,7 +39,7 @@ Edit this document to include your answers after each question. Make sure to lea
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
     Display: block takes up 100% of the width by default and the width and height properties can be set.
-    Display: only take up as much width and height as they need to and cannot accept width, height and top-bottom margins.
+    Display: inline only take up as much width and height as they need to and cannot accept width, height and top-bottom margins.
 
 3. What are the 4 areas of the box model?
 
