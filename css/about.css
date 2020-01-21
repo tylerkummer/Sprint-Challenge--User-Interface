@@ -71,6 +71,8 @@ p {
     margin: 0 auto;
 }
 
+/*Code Starts Here*/
+
 .container .main-header .organize-header .navbar ul{
     display: flex;
     justify-content: space-around;
@@ -81,107 +83,37 @@ p {
     color: black;
     text-decoration: none;
     font-size:20px;
-    padding: 2%;
+    padding: 1%;
 }
 
 .container .main-header .image{
     margin: 1%;
 }
 
-.top-content {
+.container .main-header .top-text{
+    padding:2%;
+}
+
+.container .middle-top{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    padding: 2%;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.container .middle-top h2{
+    margin-top: 2%;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.container .middle-bottom{
+    display:flex;
+    padding: 2%;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.container .middle-bottom h2{
+    margin-top: 2%;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box{
-    width: 12.5%;
-    height: 100px;
-    background: gray;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-content .boxes .box1{
-    background-color: teal;
-}
-
-.middle-content .boxes .box2 {
-    background: gold;
-}
-
-.middle-content .boxes .box3 {
-    background: cadetblue;
-}
-
-.middle-content .boxes .box4 {
-    background: coral;
-}
-
-.middle-content .boxes .box5 {
-    background: crimson;
-}
-
-.middle-content .boxes .box6 {
-    background: forestgreen;
-}
-
-.middle-content .boxes .box7 {
-    background: darkorchid;
-}
-
-.middle-content .boxes .box8 {
-    background: hotpink;
-}
-
-.middle-content .boxes .box9 {
-    background: black;
-    color: indigo;
-}
-
-.middle-content .boxes .box10 {
-    background: dodgerblue;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.container .bottom{
+    padding: 2%;
 }
 
 footer {
@@ -201,4 +133,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+button{
+    padding: 2% 4%;
+    border: #333 2px solid;
+    color: #333 2x solid;
+    background-color: white;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+hr{
+    border-top: 1px dashed black;
 }
